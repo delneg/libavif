@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libavif'
-  s.version          = '0.9.2'
+  s.version          = '0.9.3'
   s.summary          = 'libavif - Library for encoding and decoding .avif files'
 
 # This description is used to generate tags and improve search results.
@@ -23,10 +23,10 @@ https://aomediacodec.github.io/av1-avif/
 It is a work-in-progress, but can already encode and decode all AOM supported YUV formats and bit depths (with alpha).
                        DESC
 
-  s.homepage         = 'https://github.com/joedrago/avif/'
+  s.homepage         = 'https://github.com/AOMediaCodec/libavif/'
   s.license          = { :type => 'BSD' }
-  s.author           = { 'Joe Drago' => 'joedrago@gmail.com' }
-  s.source           = { :git => 'https://github.com/AOMediaCodec/libavif.git', :tag => 'v' + s.version.to_s }
+  s.author           = { 'delneg' => 'delneg@yandex.ru' }
+  s.source           = { :git => 'https://github.com/delneg/libavif-XCode.git', :tag => 'v' + s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
