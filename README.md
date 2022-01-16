@@ -108,7 +108,7 @@ libavif is available through [Swift Package Manager](https://img.shields.io/badg
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/libavif-Xcode", from: "0.4.5")
+        .package(url: "https://github.com/delneg/libavif-XCode", from: "0.9.3")
     ],
     // ...
 )

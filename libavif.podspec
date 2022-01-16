@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'libavif'
+  s.name             = 'libavif-XCode'
   s.version          = '0.9.3'
-  s.summary          = 'libavif - Library for encoding and decoding .avif files'
+  s.summary          = 'libavif-XCode - libavif Updated - library for encoding and decoding .avif files'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
